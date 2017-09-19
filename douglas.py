@@ -4,7 +4,12 @@ def slow_print(phrase):
         print(phrase[i],end='',flush=True)
         time.sleep(0.25)
 
-line = 'What is your name? '
+line = 'Hello, my name is Douglas.\n'
+slow_print(line)
+
+
+
+line = "What's your name? "
 slow_print(line)
 
 name = input()
@@ -19,10 +24,10 @@ slow_print(line)
 
 why = input()
 
-print('Oh, how interesting.',end='',flush=True)
-for i in range(8):
+print('Oh, how very interesting...',end='',flush=True)
+for i in range(7):
     time.sleep(1)
     print('.',end='',flush=True)
 
-line = 'Well, have a great day, {}!\n'.format(name)
+line = '\nWell, it was nice chatting!\nHave a great day, {}!\n'.format(name)
 slow_print(line)
