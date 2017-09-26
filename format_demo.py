@@ -15,3 +15,6 @@ num_classes = input('How many classes are you taking this year? ')
 print("Wow {}! {} is a LOT of classes.  I bet you're busy!".format(name,num_classes))
 print("Don't worry {}, I took {} classes ".format(name, num_classes),end='')
 print('one year and look at how I turned out!')
+
+fav_class = input('What is your favorite class, {}? '.format(name))
+print("Oh, well I never really liked {}.".format(fav_class))
