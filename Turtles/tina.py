@@ -1,5 +1,6 @@
 import turtle
 tina = turtle.Turtle()
+turtle.title("Tina the Turtle")
 tina.shape('turtle')
 tina.seth(90)
 
