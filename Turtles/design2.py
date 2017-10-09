@@ -22,8 +22,6 @@ def main():
     speed(0)
     colormode(255)   #necessary to use rgb colors below
     bgcolor('black')
-    pu()
-    pd()
     draw_figure(100)
 
 main()

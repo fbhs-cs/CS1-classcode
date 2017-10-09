@@ -14,8 +14,6 @@ def main():
     speed(0) # sets the speed of the drawing to 0, which is fastest
     color('white') # sets the color of the turtle to white
     bgcolor('black') #sets the background color to black
-    pu() # short for penup()
-    pd() # short for pendown()
     draw_figure() 
     
 main()
