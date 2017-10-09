@@ -1,10 +1,9 @@
 from turtle import *
 
-
-def draw_hex(size):
+def draw_hex(size):   # size is the length of the sides
     for i in range(6):
-        fd(size)
-        rt(60)
+        fd(size)      # fd is short for forward
+        rt(60)        # rt is short for right
 
 def draw_figure():
     for i in range(120):
@@ -17,6 +16,6 @@ def main():
     bgcolor('black') #sets the background color to black
     pu() # short for penup()
     pd() # short for pendown()
-    draw_figure()
+    draw_figure() 
     
 main()
