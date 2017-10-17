@@ -6,8 +6,8 @@ def draw_circles():
     color_list = ['red','blue','green','orange','yellow','black','white']
     for i in range(1,21):
         pu()
-        color(choice(color_list))  #random from list
-        #color(color_list[i % 7])  #in the order of the list
+        #color(choice(color_list))  #random from list
+        color(color_list[i % 7])  #in the order of the list
         radius = 300 - 15*i
         begin_fill()
         goto(0,-radius)
