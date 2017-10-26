@@ -3,8 +3,8 @@ import random
 
 def slow_print(phrase):
     for i in range(len(phrase)):
-        pause = 0
-        #pause = random.random()/2
+        #pause = 0
+        pause = random.random()/4
         print(phrase[i],end='',flush=True)
         time.sleep(pause)
 
@@ -14,7 +14,13 @@ slow_print(line)
 line = "What's your name? "
 slow_print(line)
 
-name = input()
+while True:
+    name = input()
+    if len(name) == 0:
+        slow_print('Sorry, I didn\'t catch that.  What was your name again? ')
+    else:
+        break
+    
 if len(name) > 10:
     slow_print('Oh, I just meant your first name...')
     if ' is ' in name:
@@ -45,7 +51,13 @@ else:
     line = 'Hi there {}, how are you today? '.format(name)
     slow_print(line)
 
-how = input()
+while True:
+    how = input()
+    if len(how) == 0:
+        slow_print('Hello? Are you there? Sorry, there must have been some static...')
+        slow_print('How are you today? ')
+    else:
+        break
 if 'fine' in how.lower() or 'good' in how.lower() or 'ok' in how.lower():
     slow_print('Well I\'m glad you\'re having a good day!\n')
     why = ''
@@ -77,6 +89,9 @@ while True:
     responses = ['Oh, how very interesting...', 'Well that\'s news to me...', 'You don\'t say...', "Thanks for sharing!", "I didn't know that..."]
     slow_print(random.choice(questions))
     whatelse = input()
+    if len(whatelse) == 0:
+        slow_print('Hello? Are you there? ')
+        continue
     if 'nothing' in whatelse.lower() or 'nada' in whatelse.lower() or 'bye' in whatelse.lower() or 'not' in whatelse.lower() or 'no' in whatelse.lower():
         slow_print('Ok, well in that case, I gotta go.\n')
         break
