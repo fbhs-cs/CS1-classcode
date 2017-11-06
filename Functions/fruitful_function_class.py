@@ -7,7 +7,7 @@ def area(radius):
 def absolute_value(x):
     '''returns the absolute value of x
     '''
-    
+    return 0
 
 def compare(x, y):
     '''returns 1 if x is greater than  y
