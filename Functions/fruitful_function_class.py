@@ -1,3 +1,7 @@
+def afunc(val):
+    for i in range(val):
+        print(i)
+
 def area(radius):
     '''returns the area of a circle with radius
     '''
