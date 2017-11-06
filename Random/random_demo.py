@@ -24,6 +24,6 @@ d = random.randint(10,20)
 print("10-20:\t{}\t{}\t{}\t{}".format(a,b,c,d))
 
 
-#TODO choose random numbers
+#TODO choose 4 random numbers
 #between 70 and 100
 #and print them out

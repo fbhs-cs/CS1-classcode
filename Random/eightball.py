@@ -11,9 +11,9 @@ elif num == 2:
 elif num == 3:
     print('I can\'t tell for sure.')
     #TODO MORE RESPONSES
-        # 1 MORE POSITIVE RESPONSE
-        # 1 MORE UNSURE RESPONSE
-        # 1 MORE NEGATIVE RESPONSE
+        # 1 MORE POSITIVE RESPONSES
+        # 1 MORE UNSURE RESPONSES
+        # 1 MORE NEGATIVE RESPONSES
         
 
     
