@@ -127,10 +127,12 @@ def main():
             tests_passed += 1
         if check_func2(area_triangle,0,6,0):
             tests_passed += 1
+        if check_func2(area_triangle,-3,-4,0):
+            tests_passed += 1
     except:
         print('area_triangle not defined correctly')
     print("--------------------")
-    print("Summary: {} tests passed out of 27 tests.".format(tests_passed))
+    print("Summary: {} tests passed out of 28 tests.".format(tests_passed))
     
 if __name__ == "__main__":
     main()
