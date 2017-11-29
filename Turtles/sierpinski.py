@@ -31,6 +31,6 @@ def main():
     pu()
     setpos(-150,0)
     pd()
-    draw_sierpinski(300,4)
+    draw_sierpinski(300,6)
     
 main()

@@ -14,4 +14,4 @@ while entry != pin:
     print("\nINCORRECT PIN. TRY AGAIN.")
     entry = int(input("ENTER YOUR PIN: "))
 
-print("\nPIN ACCEPTED. YOUR ACCOUNT BALANCE IS $1031.17")
+print("\nPIN ACCEPTED. YOUR ACCOUNT BALANCE IS $1127.17")
