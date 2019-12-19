@@ -48,7 +48,7 @@ def play_round():
     return round_score
 
 def main():
-    os.system('cls')
+    os.system('clear')
     score = 0
     round_count = 0
     print('Welcome to \033[95mPig!\033[0m')
@@ -59,7 +59,7 @@ def main():
             break
         
         round_count+=1
-        os.system('cls')
+        os.system('clear')
         print('\033[1mBegin Round #{}\033[0m'.format(round_count))
         round_score = play_round()
         score += round_score
